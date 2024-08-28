@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <img src="./imagenes/logo.png" alt="Logo Aula LATAM">
+    </header>
+
+    <div class="container">
+        <div class="left-side">
+            <h1>Encriptador</h1>
+            <input type="text" id="Encriptado" placeholder="Ingrese el texto a encriptar">
+            <textarea id="desincriptado" cols="30" rows="10" placeholder="Resultado"></textarea>
+            <button type="button" id="txtEncriptado">Encriptar</button>
+            <button type="button" id="txtDesencriptado">Desencriptar</button>
+            <button type="button" id="txtCopiar">Copiar</button>
+            <p id="mensaje"></p>
+        </div>
+
+        <div class="right-section">
+            <div class="right-side">
+                <img src="./imagenes/caricutura.png" alt="Caricatura">
+            </div>
+            <div class="right-side2" id="message">No tienes un texto aún para encriptar</div>
+        </div>
+    </div>
+
+    <footer>
+        <p> BY Juan Esteban Bonilla Tavera</p>
+    </footer>
+
+    <script src="./scripts/encriptar.js"></script>
+</body>
+</html>
